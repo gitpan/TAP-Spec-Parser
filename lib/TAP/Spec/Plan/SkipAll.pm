@@ -1,6 +1,6 @@
 package TAP::Spec::Plan::SkipAll;
 BEGIN {
-  $TAP::Spec::Plan::SkipAll::VERSION = '0.02';
+  $TAP::Spec::Plan::SkipAll::VERSION = '0.03';
 }
 # ABSTRACT: A TAP plan indicating that all tests were skipped
 use Mouse;
@@ -35,7 +35,7 @@ TAP::Spec::Plan::SkipAll - A TAP plan indicating that all tests were skipped
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 ATTRIBUTES
 

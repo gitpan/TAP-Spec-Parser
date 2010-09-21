@@ -1,8 +1,8 @@
 package TAP::Spec::JunkLine;
 BEGIN {
-  $TAP::Spec::JunkLine::VERSION = '0.02';
+  $TAP::Spec::JunkLine::VERSION = '0.03';
 }
-# ABSTRACT: A comment in a TAP stream
+# ABSTRACT: A line of non-TAP data in a TAP stream
 use Mouse;
 use namespace::autoclean;
 
@@ -27,11 +27,11 @@ __END__
 
 =head1 NAME
 
-TAP::Spec::JunkLine - A comment in a TAP stream
+TAP::Spec::JunkLine - A line of non-TAP data in a TAP stream
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 ATTRIBUTES
 
