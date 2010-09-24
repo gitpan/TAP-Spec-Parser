@@ -1,6 +1,6 @@
 package TAP::Spec::Comment;
 BEGIN {
-  $TAP::Spec::Comment::VERSION = '0.03';
+  $TAP::Spec::Comment::VERSION = '0.04';
 }
 # ABSTRACT: A comment in a TAP stream
 use Mouse;
@@ -31,7 +31,7 @@ TAP::Spec::Comment - A comment in a TAP stream
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 ATTRIBUTES
 

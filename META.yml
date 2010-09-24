@@ -7,6 +7,7 @@ build_requires:
   Path::Class: 0
   Test::More: 0
   YAML::Any: 0
+  YAML::XS: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
@@ -23,4 +24,4 @@ requires:
   namespace::autoclean: 0
 resources:
   repository: http://github.com/arodland/TAP-Spec-Parser
-version: 0.03
+version: 0.04

@@ -15,7 +15,8 @@ my %WriteMakefileArgs = (
     'Carp' => '0',
     'Path::Class' => '0',
     'Test::More' => '0',
-    'YAML::Any' => '0'
+    'YAML::Any' => '0',
+    'YAML::XS' => '0'
   },
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.31'
@@ -30,7 +31,7 @@ my %WriteMakefileArgs = (
     'Regexp::Grammars' => '1.008',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.03',
+  'VERSION' => '0.04',
   'test' => {
     'TESTS' => 't/*.t'
   }

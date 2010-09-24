@@ -1,6 +1,6 @@
 package TAP::Spec::Version;
 BEGIN {
-  $TAP::Spec::Version::VERSION = '0.03';
+  $TAP::Spec::Version::VERSION = '0.04';
 }
 # ABSTRACT: A TAP version number specification
 use Mouse;
@@ -31,7 +31,7 @@ TAP::Spec::Version - A TAP version number specification
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 ATTRIBUTES
 

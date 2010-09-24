@@ -1,6 +1,6 @@
 package TAP::Spec::Parser;
 BEGIN {
-  $TAP::Spec::Parser::VERSION = '0.03';
+  $TAP::Spec::Parser::VERSION = '0.04';
 }
 # ABSTRACT: Reference implementation of the TAP specification
 use strict;
@@ -168,7 +168,7 @@ TAP::Spec::Parser - Reference implementation of the TAP specification
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 METHODS
 
