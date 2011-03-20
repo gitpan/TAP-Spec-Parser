@@ -26,12 +26,14 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'TAP::Spec::Parser',
   'PREREQ_PM' => {
+    'Method::Signatures::Simple' => '0',
     'Mouse' => '0',
     'Mouse::Util::TypeConstraints' => '0',
-    'Regexp::Grammars' => '1.008',
+    'MouseX::Foreign' => '0',
+    'Try::Tiny' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.04',
+  'VERSION' => '0.05',
   'test' => {
     'TESTS' => 't/*.t'
   }
