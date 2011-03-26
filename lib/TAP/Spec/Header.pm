@@ -1,6 +1,6 @@
 package TAP::Spec::Header;
 BEGIN {
-  $TAP::Spec::Header::VERSION = '0.05';
+  $TAP::Spec::Header::VERSION = '0.06';
 }
 # ABSTRACT: Information at the beginning of a TAP stream
 use Mouse;
@@ -70,7 +70,7 @@ TAP::Spec::Header - Information at the beginning of a TAP stream
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 ATTRIBUTES
 

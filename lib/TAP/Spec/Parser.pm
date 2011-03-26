@@ -1,13 +1,13 @@
 package TAP::Spec::Parser;
 BEGIN {
-  $TAP::Spec::Parser::VERSION = '0.05';
+  $TAP::Spec::Parser::VERSION = '0.06';
 }
 # ABSTRACT: Reference implementation of the TAP specification
 use Mouse;
 use Method::Signatures::Simple;
 use Try::Tiny;
-
-use MouseX::Foreign 'Parser::MGC';
+use Parser::MGC 0.07 ();
+extends 'Parser::MGC';
 
 #use Devel::TraceCalls { Package => ['TAP::Spec::Parser', 'Parser::MGC'] };
 
@@ -18,15 +18,22 @@ sub pattern_ws {
   qr/(?!)/
 }
 
+
 # API adapters to MGC
 method parse_from_string ($class: $string) {
   $class->new->from_string($string);
 }
 
+
 method parse_from_handle ($class: $handle) {
   $class->new->from_reader(sub {
       scalar <$handle>
     });
+}
+
+
+method parse_from_file ($class: $file) {
+  $class->new->from_file($file);
 }
 
 # Weird helper stuff
@@ -399,7 +406,7 @@ method _sp {
 no Mouse;
 1;
 
-__END__
+
 =pod
 
 =head1 NAME
@@ -408,7 +415,39 @@ TAP::Spec::Parser - Reference implementation of the TAP specification
 
 =head1 VERSION
 
-version 0.05
+version 0.06
+
+=head1 DESCRIPTION
+
+This module is part of the effort to turn the Test Anything Protocol into an
+IETF-approved internet standard. It's not optimized for production use (although
+people might find it useful); instead it's meant as a running embodiment of the
+TAP grammar in the draft standard, allowing the grammar to be comprehensively
+tested.
+
+=head1 METHODS
+
+=head2 TAP::Spec::Parser->parse_from_string($string)
+
+Attempt to parse a TAP TestSet from C<$string>. Returns a L<TAP::Spec::TestSet>
+on success, throws an exception on failure.
+
+=head2 TAP::Spec::Parser->parse_from_handle($handle)
+
+Like C<parse_from_string> only accepts an opened filehandle.
+
+=head2 TAP::Spec::Parser->parse_from_file($filename)
+
+Like C<parse_from_string> only accepts the name of a file to read a TAP
+stream from.
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * L<http://testanything.org/wiki/index.php/TAP_at_IETF:_Draft_Standard>
+
+=back
 
 =head1 AUTHOR
 
@@ -422,4 +461,7 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
+
+
+__END__
 

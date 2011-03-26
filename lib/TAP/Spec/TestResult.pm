@@ -1,6 +1,6 @@
 package TAP::Spec::TestResult;
 BEGIN {
-  $TAP::Spec::TestResult::VERSION = '0.05';
+  $TAP::Spec::TestResult::VERSION = '0.06';
 }
 # ABSTRACT: The results of a single test
 use Mouse;
@@ -81,7 +81,7 @@ TAP::Spec::TestResult - The results of a single test
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 ATTRIBUTES
 

@@ -29,11 +29,11 @@ my %WriteMakefileArgs = (
     'Method::Signatures::Simple' => '0',
     'Mouse' => '0',
     'Mouse::Util::TypeConstraints' => '0',
-    'MouseX::Foreign' => '0',
+    'Parser::MGC' => '0.07',
     'Try::Tiny' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.05',
+  'VERSION' => '0.06',
   'test' => {
     'TESTS' => 't/*.t'
   }
