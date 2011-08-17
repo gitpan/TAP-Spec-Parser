@@ -1,6 +1,6 @@
 package TAP::Spec::Plan::Todo;
-BEGIN {
-  $TAP::Spec::Plan::Todo::VERSION = '0.06';
+{
+  $TAP::Spec::Plan::Todo::VERSION = '0.07';
 }
 # ABSTRACT: A legacy TAP plan indicating TODO tests
 use Mouse;
@@ -36,7 +36,7 @@ TAP::Spec::Plan::Todo - A legacy TAP plan indicating TODO tests
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 ATTRIBUTES
 

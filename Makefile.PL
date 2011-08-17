@@ -4,7 +4,7 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -19,7 +19,7 @@ my %WriteMakefileArgs = (
     'YAML::XS' => '0'
   },
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'TAP-Spec-Parser',
   'EXE_FILES' => [],
@@ -33,7 +33,7 @@ my %WriteMakefileArgs = (
     'Try::Tiny' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.06',
+  'VERSION' => '0.07',
   'test' => {
     'TESTS' => 't/*.t'
   }

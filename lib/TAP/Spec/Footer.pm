@@ -1,6 +1,6 @@
 package TAP::Spec::Footer;
-BEGIN {
-  $TAP::Spec::Footer::VERSION = '0.06';
+{
+  $TAP::Spec::Footer::VERSION = '0.07';
 }
 # ABSTRACT: Trailing information in a TAP stream
 use Mouse;
@@ -61,7 +61,7 @@ TAP::Spec::Footer - Trailing information in a TAP stream
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 ATTRIBUTES
 

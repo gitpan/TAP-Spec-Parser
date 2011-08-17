@@ -1,6 +1,6 @@
 package TAP::Spec::Body;
-BEGIN {
-  $TAP::Spec::Body::VERSION = '0.06';
+{
+  $TAP::Spec::Body::VERSION = '0.07';
 }
 # ABSTRACT: The main body of a TAP testset
 use Mouse;
@@ -51,7 +51,7 @@ TAP::Spec::Body - The main body of a TAP testset
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 ATTRIBUTES
 

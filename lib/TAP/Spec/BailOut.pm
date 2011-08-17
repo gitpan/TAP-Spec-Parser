@@ -1,6 +1,6 @@
 package TAP::Spec::BailOut;
-BEGIN {
-  $TAP::Spec::BailOut::VERSION = '0.06';
+{
+  $TAP::Spec::BailOut::VERSION = '0.07';
 }
 # ABSTRACT: A TAP Bail Out! line
 use Mouse;
@@ -35,7 +35,7 @@ TAP::Spec::BailOut - A TAP Bail Out! line
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 ATTRIBUTES
 

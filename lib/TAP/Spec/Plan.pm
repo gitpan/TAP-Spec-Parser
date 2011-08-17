@@ -1,6 +1,6 @@
 package TAP::Spec::Plan;
-BEGIN {
-  $TAP::Spec::Plan::VERSION = '0.06';
+{
+  $TAP::Spec::Plan::VERSION = '0.07';
 }
 # ABSTRACT: A TAP test plan
 use Mouse;
@@ -24,7 +24,7 @@ TAP::Spec::Plan - A TAP test plan
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 AUTHOR
 

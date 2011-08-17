@@ -1,6 +1,6 @@
 package TAP::Spec::TestSet;
-BEGIN {
-  $TAP::Spec::TestSet::VERSION = '0.06';
+{
+  $TAP::Spec::TestSet::VERSION = '0.07';
 }
 # ABSTRACT: A set of related TAP tests
 use Mouse;
@@ -106,7 +106,7 @@ TAP::Spec::TestSet - A set of related TAP tests
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 ATTRIBUTES
 

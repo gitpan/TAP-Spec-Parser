@@ -1,6 +1,6 @@
 package TAP::Spec::Plan::Simple;
-BEGIN {
-  $TAP::Spec::Plan::Simple::VERSION = '0.06';
+{
+  $TAP::Spec::Plan::Simple::VERSION = '0.07';
 }
 # ABSTRACT: A basic TAP plan with a number of tests
 use Mouse;
@@ -31,7 +31,7 @@ TAP::Spec::Plan::Simple - A basic TAP plan with a number of tests
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 ATTRIBUTES
 

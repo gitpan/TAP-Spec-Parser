@@ -1,6 +1,6 @@
 package TAP::Spec::JunkLine;
-BEGIN {
-  $TAP::Spec::JunkLine::VERSION = '0.06';
+{
+  $TAP::Spec::JunkLine::VERSION = '0.07';
 }
 # ABSTRACT: A line of non-TAP data in a TAP stream
 use Mouse;
@@ -31,7 +31,7 @@ TAP::Spec::JunkLine - A line of non-TAP data in a TAP stream
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 ATTRIBUTES
 
