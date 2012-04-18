@@ -1,8 +1,7 @@
 package TAP::Spec::BailOut;
-{
-  $TAP::Spec::BailOut::VERSION = '0.07';
-}
 # ABSTRACT: A TAP Bail Out! line
+our $VERSION = '0.07_99'; # VERSION
+our $AUTHORITY = 'cpan:ARODLAND'; # AUTHORITY
 use Mouse;
 use namespace::autoclean;
 
@@ -35,7 +34,7 @@ TAP::Spec::BailOut - A TAP Bail Out! line
 
 =head1 VERSION
 
-version 0.07
+version 0.07_99
 
 =head1 ATTRIBUTES
 
@@ -55,7 +54,7 @@ Andrew Rodland <arodland@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Andrew Rodland.
+This software is copyright (c) 2012 by Andrew Rodland.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

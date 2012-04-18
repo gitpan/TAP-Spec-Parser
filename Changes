@@ -1,3 +1,7 @@
+Version 0.07_99: 2012-04-18
+  * Changed parser backend from Parser::MGC to Marpa::XS.
+  * Updated dist.ini.
+
 0.07      2011-08-17 08:26:22 America/New_York
   * Revised "junk line" handling for more robust parsing, and to match
     the way that Test::Harness behaves.

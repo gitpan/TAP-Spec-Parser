@@ -9,33 +9,35 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Reference implementation of the TAP specification',
-  'AUTHOR' => 'Andrew Rodland <arodland@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'Carp' => '0',
-    'Path::Class' => '0',
-    'Test::More' => '0',
-    'YAML::Any' => '0',
-    'YAML::XS' => '0'
+  "ABSTRACT" => "Reference implementation of the TAP specification",
+  "AUTHOR" => "Andrew Rodland <arodland\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "Carp" => 0,
+    "Path::Class" => 0,
+    "Test::More" => 0,
+    "YAML::Any" => 0,
+    "YAML::XS" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'TAP-Spec-Parser',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'TAP::Spec::Parser',
-  'PREREQ_PM' => {
-    'Method::Signatures::Simple' => '0',
-    'Mouse' => '0',
-    'Mouse::Util::TypeConstraints' => '0',
-    'Parser::MGC' => '0.07',
-    'Try::Tiny' => '0',
-    'namespace::autoclean' => '0'
+  "DISTNAME" => "TAP-Spec-Parser",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "TAP::Spec::Parser",
+  "PREREQ_PM" => {
+    "Marpa::XS" => 0,
+    "Method::Signatures::Simple" => 0,
+    "Mouse" => 0,
+    "Mouse::Util::TypeConstraints" => 0,
+    "Try::Tiny" => 0,
+    "namespace::autoclean" => 0
   },
-  'VERSION' => '0.07',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.07_99",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
