@@ -1,7 +1,11 @@
 package TAP::Spec::TestSet;
+BEGIN {
+  $TAP::Spec::TestSet::AUTHORITY = 'cpan:ARODLAND';
+}
+{
+  $TAP::Spec::TestSet::VERSION = '0.07_991'; # TRIAL
+}
 # ABSTRACT: A set of related TAP tests
-our $VERSION = '0.07_99'; # VERSION
-our $AUTHORITY = 'cpan:ARODLAND'; # AUTHORITY
 use Mouse;
 use namespace::autoclean;
 
@@ -97,6 +101,7 @@ sub passed {
 __PACKAGE__->meta->make_immutable;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -105,7 +110,7 @@ TAP::Spec::TestSet - A set of related TAP tests
 
 =head1 VERSION
 
-version 0.07_99
+version 0.07_991
 
 =head1 ATTRIBUTES
 
@@ -156,4 +161,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

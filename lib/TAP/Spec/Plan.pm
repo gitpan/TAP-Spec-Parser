@@ -1,7 +1,11 @@
 package TAP::Spec::Plan;
+BEGIN {
+  $TAP::Spec::Plan::AUTHORITY = 'cpan:ARODLAND';
+}
+{
+  $TAP::Spec::Plan::VERSION = '0.07_991'; # TRIAL
+}
 # ABSTRACT: A TAP test plan
-our $VERSION = '0.07_99'; # VERSION
-our $AUTHORITY = 'cpan:ARODLAND'; # AUTHORITY
 use Mouse;
 use namespace::autoclean;
 
@@ -15,6 +19,7 @@ __PACKAGE__->meta->make_immutable;
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -23,7 +28,7 @@ TAP::Spec::Plan - A TAP test plan
 
 =head1 VERSION
 
-version 0.07_99
+version 0.07_991
 
 =head1 AUTHOR
 
@@ -37,4 +42,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

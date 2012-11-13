@@ -1,7 +1,11 @@
 package TAP::Spec::Plan::Todo;
+BEGIN {
+  $TAP::Spec::Plan::Todo::AUTHORITY = 'cpan:ARODLAND';
+}
+{
+  $TAP::Spec::Plan::Todo::VERSION = '0.07_991'; # TRIAL
+}
 # ABSTRACT: A legacy TAP plan indicating TODO tests
-our $VERSION = '0.07_99'; # VERSION
-our $AUTHORITY = 'cpan:ARODLAND'; # AUTHORITY
 use Mouse;
 use namespace::autoclean;
 extends 'TAP::Spec::Plan::Simple';
@@ -27,6 +31,7 @@ around 'as_tap' => sub {
 __PACKAGE__->meta->make_immutable;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -35,7 +40,7 @@ TAP::Spec::Plan::Todo - A legacy TAP plan indicating TODO tests
 
 =head1 VERSION
 
-version 0.07_99
+version 0.07_991
 
 =head1 ATTRIBUTES
 
@@ -62,4 +67,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

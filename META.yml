@@ -13,7 +13,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,7 +24,7 @@ no_index:
     - t
     - example
 requires:
-  Marpa::XS: 0
+  Marpa::R2: 0
   Method::Signatures::Simple: 0
   Mouse: 0
   Mouse::Util::TypeConstraints: 0
@@ -35,5 +35,5 @@ resources:
   homepage: http://metacpan.org/release/TAP-Spec-Parser
   license: http://dev.perl.org/licenses/
   repository: git://github.com/arodland/TAP-Spec-Parser.git
-version: 0.07_99
+version: 0.07_991
 x_authority: cpan:ARODLAND

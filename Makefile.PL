@@ -28,14 +28,14 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "TAP::Spec::Parser",
   "PREREQ_PM" => {
-    "Marpa::XS" => 0,
+    "Marpa::R2" => 0,
     "Method::Signatures::Simple" => 0,
     "Mouse" => 0,
     "Mouse::Util::TypeConstraints" => 0,
     "Try::Tiny" => 0,
     "namespace::autoclean" => 0
   },
-  "VERSION" => "0.07_99",
+  "VERSION" => "0.07_991",
   "test" => {
     "TESTS" => "t/*.t"
   }

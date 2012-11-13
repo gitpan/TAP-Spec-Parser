@@ -1,7 +1,11 @@
 package TAP::Spec::Plan::SkipAll;
+BEGIN {
+  $TAP::Spec::Plan::SkipAll::AUTHORITY = 'cpan:ARODLAND';
+}
+{
+  $TAP::Spec::Plan::SkipAll::VERSION = '0.07_991'; # TRIAL
+}
 # ABSTRACT: A TAP plan indicating that all tests were skipped
-our $VERSION = '0.07_99'; # VERSION
-our $AUTHORITY = 'cpan:ARODLAND'; # AUTHORITY
 use Mouse;
 use namespace::autoclean;
 extends 'TAP::Spec::Plan';
@@ -26,6 +30,7 @@ sub as_tap {
 __PACKAGE__->meta->make_immutable;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -34,7 +39,7 @@ TAP::Spec::Plan::SkipAll - A TAP plan indicating that all tests were skipped
 
 =head1 VERSION
 
-version 0.07_99
+version 0.07_991
 
 =head1 ATTRIBUTES
 
@@ -64,4 +69,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

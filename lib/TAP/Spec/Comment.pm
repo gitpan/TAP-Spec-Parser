@@ -1,7 +1,11 @@
 package TAP::Spec::Comment;
+BEGIN {
+  $TAP::Spec::Comment::AUTHORITY = 'cpan:ARODLAND';
+}
+{
+  $TAP::Spec::Comment::VERSION = '0.07_991'; # TRIAL
+}
 # ABSTRACT: A comment in a TAP stream
-our $VERSION = '0.07_99'; # VERSION
-our $AUTHORITY = 'cpan:ARODLAND'; # AUTHORITY
 use Mouse;
 use namespace::autoclean;
 
@@ -22,6 +26,7 @@ sub as_tap {
 __PACKAGE__->meta->make_immutable;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -30,7 +35,7 @@ TAP::Spec::Comment - A comment in a TAP stream
 
 =head1 VERSION
 
-version 0.07_99
+version 0.07_991
 
 =head1 ATTRIBUTES
 
@@ -56,4 +61,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
