@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::BailOut::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::BailOut::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::BailOut::VERSION = '0.10';
 }
 # ABSTRACT: A TAP Bail Out! line
 use Mouse;
@@ -39,7 +39,7 @@ TAP::Spec::BailOut - A TAP Bail Out! line
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

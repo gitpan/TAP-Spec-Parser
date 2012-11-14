@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::Version::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::Version::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::Version::VERSION = '0.10';
 }
 # ABSTRACT: A TAP version number specification
 use Mouse;
@@ -35,7 +35,7 @@ TAP::Spec::Version - A TAP version number specification
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

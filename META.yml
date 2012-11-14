@@ -24,7 +24,7 @@ no_index:
     - t
     - example
 requires:
-  Marpa::R2: 0
+  Marpa::R2: 2.025_001
   Method::Signatures::Simple: 0
   Mouse: 0
   Mouse::Util::TypeConstraints: 0
@@ -35,5 +35,5 @@ resources:
   homepage: http://metacpan.org/release/TAP-Spec-Parser
   license: http://dev.perl.org/licenses/
   repository: git://github.com/arodland/TAP-Spec-Parser.git
-version: 0.07_991
+version: 0.10
 x_authority: cpan:ARODLAND

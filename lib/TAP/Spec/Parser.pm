@@ -3,13 +3,13 @@ BEGIN {
   $TAP::Spec::Parser::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::Parser::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::Parser::VERSION = '0.10';
 }
 # ABSTRACT: Reference implementation of the TAP specification
 use Mouse;
 use Method::Signatures::Simple;
 use Try::Tiny;
-use Marpa::R2;
+use Marpa::R2 2.025_001;
 use TAP::Spec::TestSet ();
 
 has 'exhaustive_strings' => (
@@ -327,7 +327,7 @@ BEGIN {
   $TAP::Spec::Parser::Actions::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::Parser::Actions::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::Parser::Actions::VERSION = '0.10';
 }
 
 sub subrule1 {
@@ -485,7 +485,7 @@ TAP::Spec::Parser - Reference implementation of the TAP specification
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 DESCRIPTION
 

@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::Body::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::Body::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::Body::VERSION = '0.10';
 }
 # ABSTRACT: The main body of a TAP testset
 use Mouse;
@@ -55,7 +55,7 @@ TAP::Spec::Body - The main body of a TAP testset
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::TestSet::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::TestSet::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::TestSet::VERSION = '0.10';
 }
 # ABSTRACT: A set of related TAP tests
 use Mouse;
@@ -110,7 +110,7 @@ TAP::Spec::TestSet - A set of related TAP tests
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

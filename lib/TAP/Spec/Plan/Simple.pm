@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::Plan::Simple::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::Plan::Simple::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::Plan::Simple::VERSION = '0.10';
 }
 # ABSTRACT: A basic TAP plan with a number of tests
 use Mouse;
@@ -35,7 +35,7 @@ TAP::Spec::Plan::Simple - A basic TAP plan with a number of tests
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

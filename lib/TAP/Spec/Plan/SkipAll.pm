@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::Plan::SkipAll::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::Plan::SkipAll::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::Plan::SkipAll::VERSION = '0.10';
 }
 # ABSTRACT: A TAP plan indicating that all tests were skipped
 use Mouse;
@@ -39,7 +39,7 @@ TAP::Spec::Plan::SkipAll - A TAP plan indicating that all tests were skipped
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

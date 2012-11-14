@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::Footer::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::Footer::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::Footer::VERSION = '0.10';
 }
 # ABSTRACT: Trailing information in a TAP stream
 use Mouse;
@@ -65,7 +65,7 @@ TAP::Spec::Footer - Trailing information in a TAP stream
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

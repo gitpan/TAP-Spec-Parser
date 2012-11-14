@@ -1,3 +1,7 @@
+0.10      2012-11-14 00:27:12 EST5EDT
+  * Release Marpa-based version; it's now decisively better
+    than the MGC parser.
+
 0.07_991  2012-11-13 02:21:52 America/New_York
   * Upgrade to Marpa::R2
   * Now with more BNF-like grammar definition.

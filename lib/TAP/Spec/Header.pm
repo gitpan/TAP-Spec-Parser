@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::Header::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::Header::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::Header::VERSION = '0.10';
 }
 # ABSTRACT: Information at the beginning of a TAP stream
 use Mouse;
@@ -74,7 +74,7 @@ TAP::Spec::Header - Information at the beginning of a TAP stream
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

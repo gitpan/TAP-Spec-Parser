@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::Plan::Todo::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::Plan::Todo::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::Plan::Todo::VERSION = '0.10';
 }
 # ABSTRACT: A legacy TAP plan indicating TODO tests
 use Mouse;
@@ -40,7 +40,7 @@ TAP::Spec::Plan::Todo - A legacy TAP plan indicating TODO tests
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

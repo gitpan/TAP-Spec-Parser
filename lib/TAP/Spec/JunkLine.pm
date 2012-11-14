@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::JunkLine::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::JunkLine::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::JunkLine::VERSION = '0.10';
 }
 # ABSTRACT: A line of non-TAP data in a TAP stream
 use Mouse;
@@ -35,7 +35,7 @@ TAP::Spec::JunkLine - A line of non-TAP data in a TAP stream
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 

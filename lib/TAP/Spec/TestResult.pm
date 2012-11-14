@@ -3,7 +3,7 @@ BEGIN {
   $TAP::Spec::TestResult::AUTHORITY = 'cpan:ARODLAND';
 }
 {
-  $TAP::Spec::TestResult::VERSION = '0.07_991'; # TRIAL
+  $TAP::Spec::TestResult::VERSION = '0.10';
 }
 # ABSTRACT: The results of a single test
 use Mouse;
@@ -85,7 +85,7 @@ TAP::Spec::TestResult - The results of a single test
 
 =head1 VERSION
 
-version 0.07_991
+version 0.10
 
 =head1 ATTRIBUTES
 
